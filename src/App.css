@@ -1,10 +1,25 @@
 .App {
   text-align: center;
+  background-color: rgba(223, 177, 217, 0.849);
+  height: 100vh;
+  padding-top: 3%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.p {
+  background-color: rgba(238, 230, 237, 0.849);
+  padding: 1rem;
+}
+
+.btnnn {
+  background-color: #fb61eec0;
+  border-radius: 10px;
+  border: none;
+  padding: 3px 8px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -28,10 +43,15 @@
   color: #61dafb;
 }
 
+.title {
+  margin: 3rem 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
